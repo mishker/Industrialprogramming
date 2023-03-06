@@ -25,7 +25,7 @@ double eq2::find_X() {
             return x;
         }
         else {
-            cout << "Корней 2, наибольший: " << endl;
+            cout << "Корней 2,наибольший: " << endl;
             double x1 = (-b - sqrt(D)) / (2 * a);
             double x2 = (-b + sqrt(D)) / (2 * a);
             if (x1 > x2) {
