@@ -16,7 +16,7 @@ int gcd(int a, int b) {
 RationalValues formating(int a, int b) {
 	if (b == 0)
 	{
-		std::cout << "знаменатель не должен быть равен нулю";
+		std::cout << "Р·РЅР°РјРµРЅР°С‚РµР»СЊ РЅРµ РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ СЂР°РІРµРЅ РЅСѓР»СЋ";
 		throw std::runtime_error("zero division error");
 	}
 
